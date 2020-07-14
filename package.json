@@ -22,5 +22,9 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public"
+  },
+  "dependencies": {
+    "@textile/hub": "^0.3.4",
+    "@textile/threads-database": "^0.6.1"
   }
 }
